@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="light-theme.css">
+  <link href="https://fonts.googleapis.com/css?family=Inter:300,400,600,700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Social Media Dashboard</title>
+</head>
+<body>
+<div class="background-header"></div>
+<div class="container">
+<header class="main-header">
+  <div class="header__website-header">
+    <h1 class="website-name">Social Media Dashboard</h1>
+    <p class="total_followers">Total Followers: 23,004</p>
+  </div>
+  <div class="header__theme-toggler">
+    <p class="theme-name">Dark Mode</p>
+    <label class="switch-label">
+      <input class="checkbox" type="checkbox">
+      <span class="slider slider_round"></span>
+    </label>
+  </div>
+</header>
+<div class="grids-container">
+  <div class="total-followers-count-div">
+    <div class="grid-item-big facebook-total">
+      <div class="name-div facebook-name-div"><p class="name facebook-name">@nathanf</p></div>
+      <div class="total-followers-count facebook-followers-total">1987</div>
+      <div class="followers-name facebook-followers-name">Followers</div>
+      <div class="today-dinamic today-dinamic__positive today-followers-facebook-dinamic">12 Today</div>
+    </div>
+    <div class="grid-item-big twitter-total">
+      <div class="name-div twitter-name-div"><p class="name twitter-name">@nathanf</p></div>
+      <div class="total-followers-count twitter-followers-total">1044</div>
+      <div class="followers-name twitter-followers-name">Followers</div>
+      <div class="today-dinamic today-dinamic__positive today-followers-twitter-dinamic">99 Today</div>
+    </div>
+    <div class="grid-item-big instagram-total">
+      <div class="name-div instagram-name-div"><p class="name instagram-name">@realnathanf</p></div>
+      <div class="total-followers-count instagram-followers-total">11k</div>
+      <div class="followers-name instagram-followers-name">Followers</div>
+      <div class="today-dinamic today-dinamic__positive today-followers-instagram-dinamic">1099 Today</div>
+    </div>
+    <div class="grid-item-big youtube-total">
+      <div class="name-div youtube-name-div"><p class="name youtube-name">Nathan F.</p></div>
+      <div class="total-followers-count youtube-followers-total">8239</div>
+      <div class="followers-name youtube-followers-name">Subscribers</div>
+      <div class="today-dinamic today-dinamic__negative today-followers-youtube-dinamic">144 Today</div>
+    </div>
+  </div>
+  <div class="sub-header">
+    <h2 class='today-header'>Overview - Today</h2>
+  </div>
+  <div class="likes-and-views-today-count">
+    <div class="grid-item-small facebook-views">
+      <div class="grid-item-small__header">
+        <p class="grid-item-name">Page Views</p>
+        <img class="grid-item-image grid-item-image__facebook" src="images\icon-facebook.svg" alt="">
+      </div>
+      <div class="grid-item-small__footer">
+        <p class="grid-item-count">87</p>
+        <p class="grid-item-percent today-dinamic__positive">3%</p>
+      </div>
+      </div>
+    <div class="grid-item-small facebook-likes">
+      <div class="grid-item-small__header">
+        <p class="grid-item-name">Likes</p>
+        <img class="grid-item-image grid-item-image__facebook" src="images\icon-facebook.svg" alt="">
+      </div>
+      <div class="grid-item-small__footer">
+        <p class="grid-item-count">52</p>
+        <p class="grid-item-percent today-dinamic__negative">2%</p>
+      </div>
+      </div>
+    <div class="grid-item-small instagram-likes">
+      <div class="grid-item-small__header">
+        <p class="grid-item-name">Likes</p>
+        <img class="grid-item-image grid-item-image__instagram" src="images\icon-instagram.svg" alt="">
+      </div>
+      <div class="grid-item-small__footer">
+        <p class="grid-item-count">5462</p>
+        <p class="grid-item-percent today-dinamic__positive">2257%</p>
+      </div>
+      </div>
+    <div class="grid-item-small instagram-views">
+      <div class="grid-item-small__header">
+        <p class="grid-item-name">Profile Views</p>
+        <img class="grid-item-image grid-item-image__instagram" src="images\icon-instagram.svg" alt="">
+      </div>
+      <div class="grid-item-small__footer">
+        <p class="grid-item-count">52k</p>
+        <p class="grid-item-percent today-dinamic__positive">1375%</p>
+      </div>
+
+      </div>
+    <div class="grid-item-small twitter-retweets">
+      <div class="grid-item-small__header">
+        <p class="grid-item-name">Retweets</p>
+        <img class="grid-item-image grid-item-image__twitter" src="images\icon-twitter.svg" alt="">
+      </div>
+      <div class="grid-item-small__footer">
+        <p class="grid-item-count">117</p>
+        <p class="grid-item-percent today-dinamic__positive">303%</p>
+      </div>
+      </div>
+    <div class="grid-item-small twitter-likes">
+      <div class="grid-item-small__header">
+        <p class="grid-item-name">Likes</p>
+        <img class="grid-item-image grid-item-image__twitter" src="images\icon-twitter.svg" alt="">
+      </div>
+      <div class="grid-item-small__footer">
+        <p class="grid-item-count">507</p>
+        <p class="grid-item-percent today-dinamic__positive">553%</p>
+      </div>
+      </div>
+    <div class="grid-item-small youtube-likes">
+      <div class="grid-item-small__header">
+        <p class="grid-item-name">Likes</p>
+        <img class="grid-item-image grid-item-image__youtube" src="images\icon-youtube.svg" alt="">
+      </div>
+      <div class="grid-item-small__footer">
+        <p class="grid-item-count">107</p>
+        <p class="grid-item-percent today-dinamic__negative">19%</p>
+      </div>
+      </div>
+    <div class="grid-item-small youtube-views">
+      <div class="grid-item-small__header">
+        <p class="grid-item-name">Total Views</p>
+        <img class="grid-item-image grid-item-image__youtube" src="images\icon-youtube.svg" alt="">
+      </div>
+      <div class="grid-item-small__footer">
+        <p class="grid-item-count">1407</p>
+        <p class="grid-item-percent today-dinamic__negative">12%</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!--
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+<script> </script>
+<script src="main.js"> </script>
+</body>
+</html>
